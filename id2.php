@@ -1871,8 +1871,8 @@
                             </a>
                         </div>
                     </div>
-                    <%-- <div class="col-lg-1 col-xs-1 col-centered">
-                        </div>--%>
+                    <!-- <%-- <div class="col-lg-1 col-xs-1 col-centered">
+                        </div>--%> -->
                 </div>
             </div>
             <!---Mandir Darshan---->
@@ -2032,8 +2032,8 @@
             <div class="container-fluid container_1" style="margin-top: 50px;">
 
                 <div class="row row-centered pos g-0">
-                    <%--<div class="col">
-                        </div>--%>
+                    <!-- <%--<div class="col">
+                        </div>--%> -->
                     <div class="col-lg-12 col-xs-12 col-centered abtTemple1 " style="min-height: 700px; border-radius: 20px; opacity: 1;">
                         <center>
                             <img src="assets/img/box-header-caligraphy.svg"alt="Shri Radhey" />
@@ -2055,7 +2055,7 @@
                                     <li data-bs-target="#myCarousel1" data-bs-slide-to="1" style="background-color: #f00;"></li>
                                     <li data-bs-target="#myCarousel1" data-bs-slide-to="2" style="background-color: #f00;"></li>
                                      <li data-bs-target="#myCarousel1" data-bs-slide-to="3" style="background-color: #f00;"></li>
-                                 <%--    <li data-bs-target="#myCarousel1" data-bs-slide-to="4" style="background-color: #f00;"></li>--%>
+                                 <!-- <%--    <li data-bs-target="#myCarousel1" data-bs-slide-to="4" style="background-color: #f00;"></li>--%> -->
                                 </ol>
 
                                 <!-- Wrapper for carousel items -->
@@ -2115,14 +2115,14 @@
                                           <a  href="public/aboutTemple_5.aspx" class="btn-custom mt-2 mb-2"  title="Click to read more" style="font-weight:bold;font-size:large;padding-top:10px;padding-bottom:10px; padding-left:20px;padding-right:20px;border-radius: 48px;text-decoration:none">Read More</a>
                                 
                          
-                           <%--               
+                           <!-- <%--               
                                         <h4> Guru of Lord Shiv</h4>
                                         <p  style="text-align:justify">
                                         All Vaishnav saints and sages regard Lord Shiv as their eternal Guru because He is the supreme Vaishnav . There is no other Vaishnav who can explain the subtleties of Bhaktiyog or Sadhna so beautifully. But whom Shiv regards as Guru?
 
                                            As Lalita Devi facilitated his entry into Raas Mandal, Shiv considers Lalita as his Guru. It is worthwhile to remember here that Lalita is not different from Radha, as she is the mirror image and intimate friend of Shri Radha......
  
-                                          </p> <a  href="public/aboutTemple.aspx"  style="float:right; text-decoration:none;color:orangered">Read More</a>--%>
+                                          </p> <a  href="public/aboutTemple.aspx"  style="float:right; text-decoration:none;color:orangered">Read More</a>--%> -->
                                 </div>
                                       <div class="carousel-item shadow-lg  bg-white p-4" style="color:#101010">
                                     <h4 style="text-align:left; color: #EE6F2D">Does he eat? When Bihariji eats sweets</h4>
@@ -2153,8 +2153,8 @@
 
 
                     </div>
-                    <%-- <div class="col">
-                        </div>--%>
+                    <!-- <%-- <div class="col">
+                        </div>--%> -->
                 </div>
             </div>
             <!--/-About Mandir---->
@@ -2176,7 +2176,7 @@
                 </div>
             </div>
             <hr />
-            <%-- Festival--%>
+            <!-- <%-- Festival--%> -->
             <div class="container-fluid container_1" style="margin-top: 50px">
 
                 <div class="row row-centered pos g-0">
@@ -2190,11 +2190,11 @@
 
                                     
                                  <div class="row row-centered pos mt-3 p-0">
-                                     <%--  <div class="col-lg-6 col-xs-6 col-centered">--%>
+                                     <!-- <%--  <div class="col-lg-6 col-xs-6 col-centered">--%> -->
                                             <div class="col-sm-6 center-image d-none d-sm-block" >
                                           <img src="assets/img/box-festiival-image.jpg" style="border-radius: 10px; " class="img-fluid" />
                                      </div>
-                                      <%-- <div class="col-lg-6 col-xs-6 col-centered" style="padding-right:40px">--%>
+                                      <!-- <%-- <div class="col-lg-6 col-xs-6 col-centered" style="padding-right:40px">--%> -->
                                       <div class="col-xs-12 col-sm-6 col-centered" style="padding-right:40px;">
                                        <asp:Repeater ID="rptrFestivals" runat="server" OnItemCommand="rptrFestivals_ItemCommand">
                                                         <ItemTemplate> 
@@ -2227,7 +2227,7 @@
                                            <asp:button ID="btnFestivals" OnClick="btnFestivals_Click" runat="server" Text="VIEW ALL FESTIVALS" CssClass="btn-custom" style="font-size:large;font-weight:bold;   margin-top :50px; padding:10px; width:80%;border-radius: 48px;" ToolTip="Click to know about festivals"></asp:button>
                                         </div>
 
-                                            <%-- <div class="row g-0 text-dark bg-transparent mt-3">
+                                            <!-- <%-- <div class="row g-0 text-dark bg-transparent mt-3">
                                                 <div class="col-md-4">
                                                  <div class="card mb-3" style="max-width: 100px;padding:5px">
                                                 <h1 style="color: #D11B1B;text-shadow: 0px 3px 6px #00000029;opacity: 1">13<br />
@@ -2260,11 +2260,11 @@
      
                                                 </div>
                                               </div>
-                                            </div>--%>
+                                            </div>--%> -->
                                             
                                    
                                      </div>
-                                    <%-- </div>--%>
+                                    <!-- <%-- </div>--%> -->
                                
 
                             </center>
@@ -2274,7 +2274,7 @@
 
                 </div>
             </div>
-            <%-- </Festival>--%>
+            <!-- <%-- </Festival>--%> -->
 
 
             <!--//------------------------------------------->
@@ -2405,7 +2405,7 @@ border-radius: 10px;background: #9B610F 0% 0% no-repeat padding-box;" />
 
 
 
-            <%--  Kathat--%>
+            <!-- <%--  Kathat--%> -->
             <div class="container-fluid  container_1" style="margin-top: 50px">
 
                 <div class="row row-centered pos g-0">
@@ -2600,7 +2600,7 @@ border-radius: 10px;background: #9B610F 0% 0% no-repeat padding-box;" />
                 </div>
             </div>
 
-            <%-- Section : Contact US--%>
+            <!-- <%-- Section : Contact US--%> -->
             <div class="container-fluid container_1" style="margin-top: 50px">
                 <div class="row row-centered pos g-0 ">
 
