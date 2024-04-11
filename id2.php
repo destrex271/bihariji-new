@@ -1625,7 +1625,7 @@
             <a id="pageupBtn" href="#" class="btn btn-light btn-lg back-to-top" role="button" onclick="topFunction()"><i class="fas fa-chevron-up"></i></a>
             <!----Headers--------->
             <!-- Header for small screens (less than 576px) -->
-            <header class="d-sm-block d-md-none  text-white text-center p-0  w-100">
+            <!-- <header class="d-sm-block d-md-none  text-white text-center p-0  w-100">
                 <a href="default.aspx" target="_Self">
                     <img src="assets/img/headermobile.jpg" style="width: 100%" class="img-fluid" /></a>
                 <nav class="navbar navbar-expand-lg p-0" style="position: absolute; margin-top: -50%; margin-left: 2px; z-index: 99999">
@@ -1667,7 +1667,6 @@
 
 
                 </nav>
-                <!-- .navbar -->
                 <div class="row" style="margin-top: -11%; margin-bottom: 0%; margin-left: 0px; margin-right: 0px;"
                     id="headingRowMobile" runat="server">
                     <div class="col-12 " style="text-align: left">
@@ -1676,9 +1675,9 @@
 
                 </div>
 
-            </header>
+            </header> -->
             <!-- Header for medium screens (576px or larger) -->
-            <header class="d-none d-md-block d-lg-none  text-center p-0">
+            <!-- <header class="d-none d-md-block d-lg-none  text-center p-0">
                 <a href="default.aspx" target="_Self">
                     <img src="assets/img/headermobile.jpg" style="width: 100%" class="img-fluid" /></a>
                 <nav class="navbar navbar-expand-lg p-0" style="position: absolute; margin-top: -50%; margin-left: 2px; z-index: 99999">
@@ -1728,157 +1727,14 @@
                     </div>
 
                 </div>
-            </header>
-            <!-- Header for large screens (992px or larger) -->
-            <!-- <%--   <header class="d-none d-lg-block d-xl-none bg-danger text-white text-center p-2">
-                <img src="assets/img/headermobile.jpg" style="width: 100%" class="img-fluid" />
-                <nav class="navbar navbar-expand-lg p-0" style="position: absolute; margin-top: -50%; margin-left: 2px; z-index: 99999">
-                    <a class="navbar-brand" href="#" style="text-align: left">
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation"
-                            style="background: #AC0505 0% 0% no-repeat padding-box; border: 0.5px solid #AC0505; border-radius: 8px; opacity: 1; color: white; font-size: smaller; padding: 10px;">
-                            <span class="navbar-toggler-icon navbar-dark"></span>Menu
-                        </button>
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarNav3">
-                        <ul class="navbar-nav" style="text-align: left; background-color: white; padding-left: 10px; border: 1px solid red">
-                            <li class="nav-item">
-                                <a class="nav-link" href="default.aspx">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/aboutTemple.aspx" target="_self">About Temple</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/blogbihariji.aspx">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/invitethakurji.aspx">Invite Thakur Ji</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/visitTemple.aspx">Visit Temple</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/festivals.aspx">Festivals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="public/donation.aspx">Donate</a>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                </nav>
-
-                <div class="row" style="margin-top: -10%; margin-bottom: 2%; margin-left: 0px; margin-right: 0px;"
-                    id="Div1" runat="server">
-                    <div class="col-12">
-                        <h4 id="hdHeading2" runat="server"></h4>
-                    </div>
-
-                </div>
-
-            </header>--%> -->
-            <!-- Header for extra-large screens (1200px or larger) -->
-            <!-- <%--  <header class="d-none d-xl-block d-lg-block text-white text-center">
-                <nav class="navbar navbar-expand-lg shriradhey text-uppercase d-none d-sm-block navbar-fixed-top" id="mainNav" style="padding-top: .75rem!Important; padding-bottom: .75rem!Important; background-image: url(assets/img/header.jpg); min-height: 500px; width: 100%; background-repeat: no-repeat; background-size: cover;">
-                    <div class="container-fluid">
-
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 180px; margin-left: 500px;">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font: normal Roboto; letter-spacing: 0.24px; color: #FFFFFF; text-shadow: 0px 3px 6px #00000029; text-transform: uppercase; opacity: 1; margin-top: -12px;">
-
-                                <li class="nav-item fw-normal" style="width: 100px">
-                                    <a class="nav-link" href="#">Home</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 100px; text-align: center">
-                                    <a class="nav-link" href="public/aboutTemple.aspx" target="_self">ABOUT
-                                    <br />
-                                        Temple</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 100px; text-align: center">
-                                    <a class="nav-link" href="public/blogbihariji.aspx">BLOG</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 140px; text-align: center">
-                                    <a class="nav-link" href="public/invitethakurji.aspx">INVITE
-                                    <br />
-                                        THAKUR JI</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 100px; text-align: center">
-                                    <a class="nav-link" href="public/visitTemple.aspx">VISIT
-                                    <br />
-                                        TEMPLE</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 100px; text-align: center">
-                                    <a class="nav-link" href="public/festivals.aspx">Festivals</a>
-                                </li>
-                                <li class="nav-item fw-normal" style="width: 140px; text-align: center">
-                                    <a class="nav-link" href="public/donation.aspx">DONATION</a>
-                                </li>
-                            </ul>
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                        </div>
-                        <div class="col-lg-4 pt-3">
-                            <marquee>
-                         
-                            <table >
-                                <tr>
-                                <asp:Repeater ID="rptLatestThreeFestivals" runat="server" OnItemCommand="rptLatestThreeFestivals_ItemCommand">
-                                                        <ItemTemplate> 
-                                                          
-                                                           <td >
-                                                <asp:LinkButton ID="btn" runat="server" style="text-decoration:none;" >
-                                               
-                                                    <asp:HiddenField ID="hndFestIDTop" runat="server" Value='<%#Eval("p_festival_page")%>'/>
-                                                    
-                                                     
-                                                        <p style="color:black; font-weight:normal"><b><%#Eval("p_festival_name")%></b>-<%#Eval("p_festival_date")%>(<%#Eval("p_festival_day_indian_calender")%>) &nbsp;<b>|</b>
-                                                    </p>
-                                                </asp:LinkButton>
-                                                    </td>
-                                           
-                                                       
-                                      
-                                                           
-                                                 </ItemTemplate>
-                                                      </asp:Repeater></tr></table>
-                        </marquee>
-                           
-                        </div>
-                        <div class="col-lg-2 align-items-center1" style="text-align: right; padding-top: 15px">
-                            <div class="input-group mb-3">
-                                <asp:TextBox ID="tbSearch" runat="server" class="form-control" aria-describedby="basic-addon2" MaxLength="100"></asp:TextBox>
-                                <div class="input-group-append">
-                                    <asp:LinkButton ID="lbtnSearch" runat="server" class="input-group-text" Style="color: white; background: #D11B1B 0% 0% no-repeat padding-box; padding: 10px" OnClick="lbtnSearch_Click"><i class="fa fa-search"></i></asp:LinkButton>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-lg-2">
-                        </div>
-                    </div>
-                </nav>
-            </header>--%> -->
-            <header class="d-none d-lg-block d-xl-block  text-white text-center">
-
+            </header> -->
+            
+            
+            <header class="d-none d-lg-block d-xl-block text-white text-center">
                 <nav class="navbar navbar-expand-lg shriradhey text-uppercase d-none d-sm-block navbar-fixed-top" id="mainNav" style="padding-top: 0rem!Important; padding-bottom: 0rem!Important; width: 100%; background-repeat: no-repeat; background-size: cover;">
                     <div class="container-fluid justify-content-center" style="padding: 0px;">
-
-
-
                         <img src="assets/img/header_bihariji.jpg" usemap="#image-map" class="img-fluid">
-
-                        <!-- TODO: Bring back --->
-                        <!-- <map name="image-map">
+                        <map name="image-map">
                             <area target="" alt="1" title="Click to know about temple history and interesting facts" href="public/aboutTemple.aspx" coords="996,287,1184,420" shape="rect">
                             <area target="" alt="2" title="Click to read blogs" href="public/blogbihariji.aspx" coords="1181,289,1337,420" shape="rect">
                             <area target="" alt="3" title="Click to invite Thakur Ji" href="public/invitethakurji.aspx" coords="1330,287,1543,418" shape="rect">
@@ -1887,103 +1743,31 @@
                             <area target="" alt="6" title="Click to donate" href="public/donation.aspx" coords="2128,286,2090,332,2078,384,2087,415,1909,417,1911,289" shape="poly">
                             <area target="" alt="7" title="Click to visit home page" href="default.aspx" coords="996,286,996,415,847,415,831,354,815,332,790,305,770,286" shape="poly">
                             <area target="" alt="8" title="Click to visit home page" href="default.aspx" coords="432,91,385,91,389,40,403,12,439,-3,471,-3,493,19,511,26,533,26,561,1,594,26,622,37,648,58,655,83,702,76,716,91,698,116,669,145,644,181,630,195,694,184,716,206,709,238,680,249,666,263,691,263,720,267,748,274,770,296,791,314,813,335,817,360,827,396,831,422,831,457,827,486,820,522,809,555,799,594,759,616,737,619,709,609,687,641,622,648,497,670,414,677,374,662,349,684,335,749,349,616,317,587,284,540,274,493,266,432,274,375,299,306,324,281,356,270,382,270,403,256,385,220,400,195,421,181,407,152,421,130,407,98" shape="poly">
-                        </map> -->
-
-
+                        </map>
                     </div>
                     <div class="row" style="margin-top: -16%; margin-right: 2%">
                         <div class="col-4 pt-3" style="text-align: right">
                         </div>
                         <div class="col-3 pt-3" style="text-align: left; padding-left: 2%; padding-bottom: 1%;">
-                            <asp:Button ID="lbtnRegister" runat="server" Text="Register for Darshan" CssClass="btn-custom" Style="font-weight: normal; font-size: medium; padding-left: 15px; padding-right: 15px; padding-top: 5px; padding-bottom: 5px; border-radius: 48px;" OnClick="lbtnRegister_Click" ToolTip="Click to register for darshan"></asp:Button>
+                            <button ID="lbtnRegister" runat="server" Text="Register for Darshan" CssClass="btn-custom" Style="font-weight: normal; font-size: medium; padding-left: 15px; padding-right: 15px; padding-top: 5px; padding-bottom: 5px; border-radius: 48px;" OnClick="lbtnRegister_Click" ToolTip="Click to register for darshan"></button>
                         </div>
                         <div class="col-1">
                         </div>
-                        <%--<div class="col-lg-3 pt-3">
-                            <marquee>
-                          
-                            <table >
-                                <tr>
-                                <asp:Repeater ID="rptLatestThreeFestivals" runat="server" OnItemCommand="rptLatestThreeFestivals_ItemCommand">
-                                    <ItemTemplate> 
-                                        <td >
-                                            <button ID="btn" runat="server" style="text-decoration:none;" >
-                                               
-                                                <span ID="hndFestIDTop" runat="server" Value='<%#Eval("p_festival_page")%>'/>
-                                                <p style="color:black; font-weight:normal">
-                                                    <b><%#Eval("p_festival_name")%></b>-<%#Eval("p_festival_date")%>(<%#Eval("p_festival_day_indian_calender")%>) &nbsp;<b>|</b>
-                                                </p>
-                                            </button>
-                                        </td>
-                                    </ItemTemplate>
-                                </asp:Repeater>
-                                </tr>
-                            </table>
-                        </marquee>
-
-                        </div>--%>
                         <div class="col-2 align-items-center1" style="text-align: right; padding-top: 10px">
                             <div class="input-group mb-3">
-                                <asp:TextBox ID="tbSearch" runat="server" class="form-control" aria-describedby="basic-addon2" MaxLength="100"></asp:TextBox>
+                                <input id="tbSearch" class="form-control" aria-describedby="basic-addon2"/>
                                 <div class="input-group-append">
-                                    <asp:LinkButton ID="lbtnSearch" runat="server" class="input-group-text" Style="color: white; background: #D11B1B 0% 0% no-repeat padding-box; padding: 10px;" OnClick="lbtnSearch_Click" ToolTip="Click to search"><i class="fa fa-search"></i></asp:LinkButton>
+                                    <a href="#" id="lbtnSearch" class="input-group-text" style="color: white; background: #D11B1B 0% 0% no-repeat padding-box; padding: 10px;" onclick="lbtnSearch_Click()" data-toggle="tooltip" data-placement="bottom" title="Click to search"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
-
-
-
                         </div>
                         <div class="col-2">
                         </div>
                     </div>
-                    <%--<div class="row" style="margin-top: -16%; margin-right: 2%">
-                        <div class="col-lg-4">
-                        </div>
-                        <div class="col-lg-4 pt-3">
-                            <marquee>
-                          
-                            <table >
-                                <tr>
-                                <asp:Repeater ID="rptLatestThreeFestivals" runat="server" OnItemCommand="rptLatestThreeFestivals_ItemCommand">
-                                                        <ItemTemplate> 
-                                                          
-                                                           <td >
-                                                <asp:LinkButton ID="btn" runat="server" style="text-decoration:none;" >
-                                               
-                                                    <asp:HiddenField ID="hndFestIDTop" runat="server" Value='<%#Eval("p_festival_page")%>'/>
-                                                    
-                                                     
-                                                        <p style="color:black; font-weight:normal"><b><%#Eval("p_festival_name")%></b>-<%#Eval("p_festival_date")%>(<%#Eval("p_festival_day_indian_calender")%>) &nbsp;<b>|</b>
-                                                    </p>
-                                                </asp:LinkButton>
-                                                    </td>
-                                           
-                                                       
-                                      
-                                                           
-                                                 </ItemTemplate>
-                                                      </asp:Repeater>
-
-                                </tr></table>
-                        </marquee>
-
-                        </div>
-                        <div class="col-lg-2 align-items-center1" style="text-align: right; padding-top: 10px">
-                            <div class="input-group mb-3">
-                                <asp:TextBox ID="tbSearch" runat="server" class="form-control" aria-describedby="basic-addon2" MaxLength="100"></asp:TextBox>
-                                <div class="input-group-append">
-                                    <asp:LinkButton ID="lbtnSearch" runat="server" class="input-group-text" Style="color: white; background: #D11B1B 0% 0% no-repeat padding-box; padding: 10px;" OnClick="lbtnSearch_Click"><i class="fa fa-search"></i></asp:LinkButton>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-lg-2">
-                        </div>
-                    </div>--%>
-                    <%-- </nav>--%>
+                </nav>
             </header>
+ 
+
             <div id="dialog" style="display: none; z-index: 9999; border-radius: 5px">
                 <div class="row">
                     <div class="col-lg-4">
@@ -3062,13 +2846,11 @@ border-radius: 10px;background: #9B610F 0% 0% no-repeat padding-box;" />
     </form>
 
 
-    <%-- <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/all.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-    --%>
+    <script src="js/bootstrap.bundle.min.js"></script> -->
 
     <!-- Bootstrap core JS-->
     <script src="js/jquery-3.5.1.min.js"></script>
