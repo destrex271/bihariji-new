@@ -1,0 +1,15 @@
+{
+    "name": "akshat/bihariji",
+    "autoload": {
+        "psr-4": {
+            "Akshat\\Bihariji\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akshat",
+            "email": "destrex271@gmail.com"
+        }
+    ],
+    "require": {}
+}
